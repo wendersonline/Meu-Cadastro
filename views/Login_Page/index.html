@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Cadastro - Login</title>
+    <link rel="icon" type="image/png" href="/public/meu_cadastro_logo_simbolo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/public/log_reg_styles.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="Login_forms">
+            <!-- Infos do site -->
+            <img class="logo" src="/public/meu_cadastro_logo1.png" alt="logo do sistema Meu Cadastro">
+
+            <h1 class="title">Seja bem-vindo ao Meu Cadastro!</h1>
+            <p class="subtitle">Para utlizá-lo deve cadastrar um CPF para acessar a plataforma.<br> Se já é cadastrado, realize o login!</p>
+
+            <!-- Formulário de login -->
+            <div class="Forms">
+                <input id="cpf_input" class="input is-rounded" type="text" placeholder="Digite seu CPF" maxlength="14">
+                <p id="cpf_feedback" style="color:red; font-size:0.9rem; margin-top:0.3rem;"></p>
+
+                <button id="login_btn" class="button is-small is-primary">Entrar</button>
+                <a href="/cadastre-se">ou Cadastre-se agora!</a>
+            </div>
+        </div>
+
+        <!-- Espaço de informações -->
+        <div class="Info_space">
+            <img src="/public/fundo_site.png" alt="fundo com formas em verde e amarelo">
+        </div>
+    </div>
+
+    <!-- Script externo -->
+    <script src="/public/script.js"></script>
+</body>
+</html>

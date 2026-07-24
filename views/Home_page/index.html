@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Cadastro - Home</title>
+  <link rel="icon" type="image/png" href="/public/meu_cadastro_logo_simbolo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/public/home_styles.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <div class="Header">
+    <img src="/public/meu_cadastro_logo1.png" alt="logo do sistema">
+    <h1>Página Inicial</h1>
+    <button id="exit_button" class="button is-small is-primary">Sair</button>
+  </div>
+
+  <!-- Infos do site -->
+  <div class="Title">
+    <h1 id="bem_vindo">Seja bem-vindo</h1>
+    <p>Nessa tabela abaixo é possível visualizar as pessoas cadastradas dentro do sistema Meu Cadastro!</p>
+  </div>
+
+  <!-- Conteúdo -->
+  <div class="Content">
+    <!-- Barra de pesquisa -->
+    <div class="field">
+      <div class="control">
+        <input id="searchInput" class="input" type="text" placeholder="Pesquisar por nome ou CPF...">
+      </div>
+    </div>
+
+    <!-- Tabela que lista todos os usuários cadastrados -->
+    <table class="Table">
+      <thead>
+        <tr>
+          <th><abbr title="Name">Nome</abbr></th>
+          <th>CPF</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-corpo">
+        <!-- Linhas serão inseridas pelo script.js -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Script externo -->
+  <script src="/public/script.js"></script>
+</body>
+</html>

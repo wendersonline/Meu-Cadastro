@@ -1,0 +1,79 @@
+/* Importando Bulma */
+@import url('https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css');
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Container {
+    display: flex;
+    height: 100vh;
+}
+
+.Login_forms {
+    background-color: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    gap: 20px;
+}
+
+.logo {
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+.Login_forms .title {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.Login_forms .subtitle {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.Forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.Forms a {
+    color: #009C3B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Forms a:hover {
+    text-decoration: underline;
+}
+
+.button.is-primary {
+    background-color: #009C3B;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.button.is-primary:hover {
+    background-color: #00742c;
+}
+
+.Info_space { 
+  display: flex; 
+  justify-content: center; 
+  text-align: center; 
+  width: 70%;
+}
+
+.Info_space img{
+  width: 100%;
+}
