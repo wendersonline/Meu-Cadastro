@@ -1,8 +1,6 @@
-<img width="1700" height="800" alt="fundo" src="https://github.com/user-attachments/assets/a55d620d-e94e-4a98-84de-ad8aa6bad30a" />
-
+<img width="1700" height="800" alt="capa" src="https://github.com/user-attachments/assets/add7b540-9507-43f0-aaa1-fe1fb5f165ff" />
 
 # Sistema Meu Cadastro
-
 Sistema web para cadastro e visualização de dados de pessoas com base no CPF, desenvolvido em Node.js com interface moderna utilizando a biblioteca Bulma CSS.
 
 ## Funcionalidades
